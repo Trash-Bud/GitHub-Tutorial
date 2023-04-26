@@ -182,6 +182,9 @@ In my case I will accept both changes
 ![settings](images/accepted_both.png)
 
 Now just add, commit and push to the repository like normal
+![settings](images/solve_conflict.png)
+
+*Note:* to avoid situations like this try to have collaborators working on different files or you can read on branches here: https://www.atlassian.com/git/tutorials/using-branches (They are a bit more complex and I will not cover them for now but if it turns out to be necessary I can do so later)
 
 ## Others
 
