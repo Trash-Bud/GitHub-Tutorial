@@ -52,7 +52,13 @@ And then new SSH key
 
 Then Run the following command in commands on Git Bash (or terminal in linux)
 
+**Windows**
+
 `clip < ~/.ssh/id_ed25519.pub`
+
+**Linux**
+
+`xclip -sel clip < ~/.ssh/id_ed25519.pub`
 
 Then Ctrl+V in the Key field select type Authentication Key and give it whatever title you want
 
