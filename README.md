@@ -142,7 +142,22 @@ The people you invite will receive an email with the invitation to join the repo
 
 ## Getting changes made from other repository members
 
+When another collaborator makes a change to the repository it does not automatically make the change in your computer
 
+![settings](images/repo_change.png)
+
+
+![settings](images/pc_not_change.png)
+
+To update the repo in you pc you need to use the command
+
+`git pull`
+
+![settings](images/pull.png)
+
+![settings](images/change_pc.png)
+
+*Note:* if the repository has been changed by someone you always need to pull all changes before you can push your commits to the repository
 
 ## Dealing with merge conflicts
 
