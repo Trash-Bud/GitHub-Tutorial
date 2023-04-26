@@ -79,7 +79,7 @@ Choose the proper gitignore for the language you are using, this will stop the r
 ### Windows 11 and linux
 
 Right click in the folder and select "open terminal" or equivalent
-![settings](images/open_teminal.png)
+![settings](images/open%20terminal.png)
 
 ### Windows 10 and bellow
 
