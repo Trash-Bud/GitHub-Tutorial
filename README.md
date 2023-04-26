@@ -158,14 +158,30 @@ To update the repo in you pc you need to use the command
 ![settings](images/change_pc.png)
 
 *Note:* if the repository has been changed by someone you always need to pull all changes before you can push your commits to the repository
+![settings](images/must_pull.png)
+
 
 ## Dealing with merge conflicts
 
 If you and a collaborator change the same file in the same place then git might not know which version to keep which results in a merge conflict.
 
+![settings](images/conflict.png)
+
 You have to resolve these conflicts before pushing to the repository.
 
 If you are using vscode you can use the source control feature to choose what to do.
+
+![settings](images/source_control.png)
+
+From there select the files in conflict and decide what to keep and what to get rid of
+
+![settings](images/choose_how_to_resolve.png)
+
+In my case I will accept both changes
+![settings](images/accept_both.png)
+![settings](images/accepted_both.png)
+
+Now just add, commit and push to the repository like normal
 
 ## Others
 

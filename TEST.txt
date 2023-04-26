@@ -1,1 +1,2 @@
 I'm testing merge conflicts!
+THIS IS NOT A TEST *WINK WINK*
