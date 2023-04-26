@@ -8,7 +8,7 @@ To install git on windows go to https://git-scm.com/downloads and download the w
 
 ### Linux
 
-To install git on linux search for console in apps and open it then run the commands
+To install git on linux search for terminal in apps and open it then run the commands
 
 `sudo apt-get update` 
 `sudo apt-get install git.`
@@ -21,20 +21,20 @@ Go to https://www.github.com and create an account.
 
 ## Setup Git
 
-Run the following commands on Git Bash (or console in linux) replacing the name with yours and the email with your github email
+Run the following commands on Git Bash (or terminal in linux) replacing the name with yours and the email with your github email
 
 `git config --global user.name "John Doe"`
 `git config --global user.email johndoe@example.com`
 
 ## Setup Github SSH key
 
-Search for Git Bash (console in linux) and open it
+Search for Git Bash (terminal in linux) and open it
 
 ![Search](images/git_bash_search.png)
 
 ![Bash](images/git_bash.png)
 
-Run the following commands on Git Bash (or console in linux)
+Run the following commands on Git Bash (or terminal in linux)
 
 `ssh-keygen -t ed25519 -C "your_email@example.com"` - where the email is you github email
 
@@ -50,7 +50,7 @@ Then SSH and GPG keys
 And then new SSH key
 ![settings](images/new_ssh.png)
 
-Then Run the following command in commands on Git Bash (or console in linux)
+Then Run the following command in commands on Git Bash (or terminal in linux)
 
 `clip < ~/.ssh/id_ed25519.pub`
 
@@ -74,11 +74,11 @@ Choose the proper gitignore for the language you are using, this will stop the r
 
 ![settings](images/git_ignore.png)
 
-## How to open console/terminal in a folder
+## How to open terminal in a folder
 
 ### Windows 11 and linux
 
-Right click in the folder and select console/terminal
+Right click in the folder and select "open terminal" or equivalent
 ![settings](images/open_teminal.png)
 
 ### Windows 10 and bellow
@@ -92,7 +92,7 @@ In path of the folder type `cmd` and press enter
 In your repository copy the ssh link
 ![settings](images/repo_ssh_2.png)
 
-Open your terminal/console in the folder you want your repo to be in and type
+Open your terminal in the folder you want your repo to be in and type
 
 `git clone ssh_link` - where the ssh_link is the link you copied
  
@@ -105,7 +105,7 @@ Now you are free to add whatever documents you want in your repo
 ![settings](images/before.png)
 ![settings](images/after.png)
 
-After you are ready to send the documents you made to the repo open the console inside the folder and type the commands
+After you are ready to send the documents you made to the repo open the terminal inside the folder and type the commands
 
 `git status` - to see what changes and comments haven't been added to the repo 
 
