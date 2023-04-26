@@ -204,3 +204,7 @@ It's not a mandatory file but it can help explain to new comers the organization
 ![settings](images/readme_one.png)
 ![settings](images/readme_two.png)
 ![settings](images/readme_three.png)
+
+# Credits
+
+Joana Teixeira Mesquita, MEIC 1º ano, up201907878
