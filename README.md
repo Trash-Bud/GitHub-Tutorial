@@ -161,6 +161,11 @@ To update the repo in you pc you need to use the command
 
 ## Dealing with merge conflicts
 
+If you and a collaborator change the same file in the same place then git might not know which version to keep which results in a merge conflict.
+
+You have to resolve these conflicts before pushing to the repository.
+
+If you are using vscode you can use the source control feature to choose what to do.
 
 ## Others
 
