@@ -118,7 +118,44 @@ After you are ready to send the documents you made to the repo open the console 
 ![settings](images/add.png)
 
 `git commit -m "message"` - to commit changes to repository (where message is a small summary of the changes you made, usually no longer than 20 words)
+![settings](images/commit.png)
 
 `git log --oneline` - to see what commits have been made
+![settings](images/log.png)
+
 
 `git push` - to send all commits to the repository
+![settings](images/push.png)
+
+Now the changes should be in the github repository
+![settings](images/github_after.png)
+
+## Adding people to a repository
+
+Go to the repository settings and add whoever you need
+![settings](images/add_person.png)
+
+The people you invite will receive an email with the invitation to join the repository
+
+![settings](images/email.png)
+![settings](images/collaborator.png)
+
+## Getting changes made from other repository members
+
+
+
+## Dealing with merge conflicts
+
+
+## Others
+
+### What is a README
+
+A README is a file usually in markdown format (https://www.markdownguide.org) that will be displayed at the bottom of your repository and has information about the project. 
+
+It's not a mandatory file but it can help explain to new comers the organization of the repo.
+
+(Examples bellow)
+![settings](images/readme_one.png)
+![settings](images/readme_two.png)
+![settings](images/readme_three.png)
